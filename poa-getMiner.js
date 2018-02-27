@@ -104,18 +104,16 @@ function logMiner() {
          + txs + "\n" + "  Miner's Address: " + addr + ", Miner's Name: " + miner);
 
 // Comment out following 'if' statement to remove tx hashes from log.
-
-    if (txs === 0) {
-        console.log("    No Transactions" + "\n");
-    } else {
-        console.log("    Tx Hashes: " + txList + "\n");
-    }
-    
+            if (txs === 0) {
+                console.log("    No Transactions" + "\n");
+            } else {
+                console.log("    Tx Hashes: " + txList + "\n");
+            }
 // End
 
     } else {
         getMiner();
-       // console.log(b.number);
+       // console.log();
         };
     }
 

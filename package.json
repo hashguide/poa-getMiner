@@ -1,0 +1,23 @@
+{
+    "name": "poa-getminer",
+    "version": "1.0.0",
+    "description": "Made to run in `node` and log everything to console. Remove the multi-line comment at the top to be able to  write all `console.log` output to `log.txt`",
+    "main": "poa-getMiner.js",
+    "scripts": {
+      "test": "node poa-getMiner.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hashguide/poa-getMiner.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/hashguide/poa-getMiner/issues"
+    },
+    "homepage": "https://github.com/hashguide/poa-getMiner#readme",
+    "dependencies": {
+      "web3": "^1.0.0-beta.30"
+    }
+  }
+  
